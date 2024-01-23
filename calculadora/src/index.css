@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Play-Regular';
+  src:url('./fonts/Play-Regular.ttf')
+}
+
+*{
+  font-family: 'Play', monospace;
+}
+
+body {
+  display:flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: white;
+  background: linear-gradient(to right, rgb(107, 1, 121),rgb(5, 6, 14));
+
+}
+.título {
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
